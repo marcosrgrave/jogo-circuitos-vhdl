@@ -1,0 +1,29 @@
+- [ ] Entender Método datapath-control
+    - http://www.inf.ufsc.br/~j.guntzel/ine5406/SD_aula9P.pdf
+
+- [ ] Conseguir arquivos iniciais (Legenda da Estrutura)
+    - [ ] Lab4
+        - [ ] dec7seg (decbin -> binbcd -> bcd7seg)
+        - [ ] MUX
+        - [ ] SOMA
+        - [ ] SOMA_P
+    - [ ] Lab5
+        - [ ] REG
+    - [ ] Lab6
+        - [ ] Counter_time
+        - [ ] Counter_round
+    - [ ] Lab7
+        - [ ] ? (nao encontrei na estrutura)
+    - [ ] Parcialmente Dado
+        - [ ] ROM0
+        - [ ] ROM1
+        - [ ] ROM2
+        - [ ] ROM3
+    - [X] Dado (Professor Passou)
+    - [ ] A Ser Feito
+        - [ ] DECODER_TERMOMETRICO
+        - [ ] COMP_0
+        - [ ] COMP_1
+        - [ ] COMP_2
+        - [ ] COMP_3
+        - [ ] COMP=4
