@@ -3,9 +3,9 @@
 
 - [ ] Conseguir arquivos iniciais (Legenda da Estrutura)
     - [ ] Lab4
-        - [ ] dec7seg (decbin -> binbcd -> bcd7seg)
+        - [x] dec7seg (decbin -> binbcd -> bcd7seg)
         - [ ] MUX
-        - [ ] SOMA
+        - [x] SOMA
         - [ ] SOMA_P
     - [ ] Lab5
         - [ ] REG
