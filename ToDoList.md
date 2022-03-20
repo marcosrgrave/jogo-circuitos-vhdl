@@ -10,9 +10,9 @@
     - [ ] Lab5
         - [ ] REG
     - [ ] Lab6
-        - [ ] Counter_time
+        - [ ] Counter_time (tem no lab5 41:05 tbm)
         - [ ] Counter_round
-    - [ ] Lab7
+    - [ ] Lab7 (Não temos lab 7, acho que o lab6 e 5 esta no na aula 5 e o 7 na aula 6)
         - [ ] Controle
     - [x] Parcialmente Dado
         - [x] ROM0
