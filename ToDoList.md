@@ -4,7 +4,7 @@
 - [ ] Conseguir arquivos iniciais (Legenda da Estrutura)
     - [ ] Lab4
         - [x] dec7seg (decbin -> binbcd -> bcd7seg)
-        - [ ] MUX
+        - [X] MUX
         - [x] SOMA
         - [ ] SOMA_P
     - [ ] Lab5
