@@ -1,36 +1,35 @@
 library ieee;
 use ieee.std_logic_1164.all;
 
-entity ROM3 is port (
+entity ROM2 is port (
 
     address : in  std_logic_vector(3 downto 0);
     data    : out std_logic_vector(15 downto 0));
     
-end ROM3;
+end ROM2;
 
-architecture Rom_Arch of ROM3 is
+architecture Rom_Arch of ROM2 is
   
 type memory is array (00 to 15) of std_logic_vector(15 downto 0);
 constant my_Rom : memory := (
 
-	00 => ,  --preencher com sequencias de sua escolha
-	01 => ,  
-    02 => ,  
-	03 => ,  
-	04 => ,  
-	05 => ,  
-	06 => ,  
-	07 => ,  
-	08 => ,  
-	09 => ,  
-    10 => ,  
-	11 => ,  
-	12 => ,  
-	13 => ,  
-	14 => ,  
-	15 => ); 
+	00 => "1000000100100011",  --8123   ROM0 esta totalmente preenchida como exemplo. 
+	01 => "1000000100110010",  --8132   Eh necessario preencher a ROM1, ROM2 e ROM3 com sequencias de sua escolha.
+    02 => "1000001000010011",  --8213
+	03 => "1000001000110001",  --8231
+	04 => "1000001100010010",  --8312
+	05 => "1000001100100001",  --8321
+	06 => "0001100000100011",  --1823
+	07 => "0001100000110010",  --1832
+	08 => "0001001010000011",  --1283
+	09 => "0001001000111000",  --1238
+    10 => "0001001110000010",  --1382
+	11 => "0001001100101000",  --1328
+	12 => "0010100000010011",  --2813
+	13 => "0010100000110001",  --2831
+	14 => "0010000110000011",  --2183
+	15 => "0010000100111000"); --2138
 	 
-	
 begin
    process (address)
    begin

@@ -2,23 +2,23 @@
     - http://www.inf.ufsc.br/~j.guntzel/ine5406/SD_aula9P.pdf
 
 - [ ] Conseguir arquivos iniciais (Legenda da Estrutura)
-    - [ ] Lab4
+    - [x] Lab4
         - [x] dec7seg (decbin -> binbcd -> bcd7seg)
         - [X] MUX
-        - [x] SOMA
-        - [ ] SOMA_P
+        - [x] SOMA4
+        - [x] SOMA_P
     - [ ] Lab5
         - [ ] REG
     - [ ] Lab6
         - [ ] Counter_time
         - [ ] Counter_round
     - [ ] Lab7
-        - [ ] ? (nao encontrei na estrutura)
-    - [ ] Parcialmente Dado
-        - [ ] ROM0
-        - [ ] ROM1
-        - [ ] ROM2
-        - [ ] ROM3
+        - [ ] Controle
+    - [x] Parcialmente Dado
+        - [x] ROM0
+        - [x] ROM1
+        - [x] ROM2
+        - [x] ROM3
     - [X] Dado (Professor Passou)
     - [ ] A Ser Feito
         - [ ] DECODER_TERMOMETRICO
