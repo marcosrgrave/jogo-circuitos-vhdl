@@ -7,8 +7,8 @@
         - [X] MUX
         - [x] SOMA4
         - [x] SOMA_P
-    - [ ] Lab5
-        - [ ] REG
+    - [x] Lab5
+        - [x] REG
     - [ ] Lab6
         - [ ] Counter_time (tem no lab5 41:05 tbm)
         - [ ] Counter_round
