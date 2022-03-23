@@ -2,7 +2,8 @@ library IEEE;
 use IEEE.Std_Logic_1164.all;
 
 entity dec7seg is
-port (bcd_in:  in std_logic_vector(3 downto 0);
+port (
+      bcd_in:  in std_logic_vector(3 downto 0);
       out_7seg:  out std_logic_vector(6 downto 0)
      );
 end dec7seg;

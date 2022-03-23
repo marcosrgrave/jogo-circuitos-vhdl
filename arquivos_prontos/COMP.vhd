@@ -7,11 +7,11 @@ entity COMP is
 port (
     CODE: in std_logic_vector(3 downto 0);
     USER: in std_logic_vector(3 downto 0);
-    S: out std_logic_vector(3 downto 0)
+    S: out std_logic
 );
 end COMP;
 
 architecture arc_COMP of COMP is
 begin
-    S <= "0001" when (CODE = USER) else "0000";
+    S <= '1' when (CODE = USER) else '0';
 end arc_COMP;
