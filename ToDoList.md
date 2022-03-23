@@ -9,11 +9,11 @@
         - [x] SOMA_P
     - [x] Lab5
         - [x] REG
-    - [ ] Lab6
-        - [ ] Counter_time (tem no lab5 41:05 tbm)
-        - [ ] Counter_round
-    - [ ] Lab7 (Não temos lab 7, acho que o lab6 e 5 esta no na aula 5 e o 7 na aula 6)
-        - [ ] Controle
+    - [x] Lab6 (tem no lab5 41:05 tbm)
+        - [x] Counter_time 
+        - [x] Counter_round
+    - [x] Lab7 (Não temos lab 7, acho que o lab6 e 5 esta no na aula 5 e o 7 na aula 6)
+        - [x] Controle
     - [x] Parcialmente Dado
         - [x] ROM0
         - [x] ROM1
@@ -22,8 +22,8 @@
     - [X] Dado (Professor Passou)
     - [ ] A Ser Feito
         - [ ] DECODER_TERMOMETRICO
-        - [ ] COMP_0
-        - [ ] COMP_1
-        - [ ] COMP_2
-        - [ ] COMP_3
-        - [ ] COMP=4
+        - [x] COMP_0
+        - [x] COMP_1
+        - [x] COMP_2
+        - [x] COMP_3
+        - [x] COMP=4
