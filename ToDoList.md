@@ -1,7 +1,7 @@
-- [ ] Entender Método datapath-control
+- [x] Entender Método datapath-control
     - http://www.inf.ufsc.br/~j.guntzel/ine5406/SD_aula9P.pdf
 
-- [ ] Conseguir arquivos iniciais (Legenda da Estrutura)
+- [x] Conseguir arquivos iniciais (Legenda da Estrutura)
     - [x] Lab4
         - [x] dec7seg (decbin -> binbcd -> bcd7seg)
         - [X] MUX
@@ -20,8 +20,8 @@
         - [x] ROM2
         - [x] ROM3
     - [X] Dado (Professor Passou)
-    - [ ] A Ser Feito
-        - [ ] DECODER_TERMOMETRICO
+    - [x] A Ser Feito
+        - [x] DECODER_TERMOMETRICO
         - [x] COMP_0
         - [x] COMP_1
         - [x] COMP_2
