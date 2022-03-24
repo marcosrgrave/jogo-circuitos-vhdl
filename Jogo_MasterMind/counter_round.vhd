@@ -26,6 +26,6 @@ begin
         end if;
     end if;
   end process;
-  end_round <= '0' when cnt < "1111" else '1';
+  end_round <= '1' when cnt = "1111" else '0';
   S <= cnt;
 end arc_counter_round;

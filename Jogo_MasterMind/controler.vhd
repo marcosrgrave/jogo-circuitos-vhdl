@@ -3,22 +3,8 @@ use ieee.std_logic_1164.all;
 
 entity controler is
     port(
-        -- in
-        CLK: in std_logic;
-        enter: in std_logic;
-        reset: in std_logic;
-        end_game: in std_logic;
-        end_time: in std_logic;
-        end_round: in std_logic;
-        
-        -- out
-        R1: out std_logic;
-        R2: out std_logic;
-        E1: out std_logic;
-        E2: out std_logic;
-        E3: out std_logic;
-        E4: out std_logic;
-        E5: out std_logic
+        end_game, end_time, end_round, enter, reset, clk : in std_logic;
+        R1, R2, E1, E2, E3, E4, E5: out std_logic
     );
 end entity;
 
@@ -31,12 +17,12 @@ begin
     begin
         if reset = '1' then
             EAtual <= Init;
-        elsif rising_edge(CLK) then
+        elsif (CLK'event and CLK = '1') then
             EAtual <= PEstado;
         end if;
     end process;
     
-    process(end_game, end_time, end_round, enter) is
+    process(end_game, end_time, end_round, enter, CLK) is
     begin
         PEstado <= EAtual;
         case EAtual is
